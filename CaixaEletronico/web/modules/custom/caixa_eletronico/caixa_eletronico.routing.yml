@@ -1,0 +1,7 @@
+caixa_eletronico.saque:
+  path: '/caixa_eletronico/saque'
+  defaults:
+    _title: 'Sacar Dinheiro'
+    _form: '\Drupal\caixa_eletronico\Form\SaqueForm'
+  requirements:
+    _access: 'TRUE'
